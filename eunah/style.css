@@ -1,38 +1,59 @@
 @font-face {
-    font-family: 'SUITE-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'SokchoBadaBatang';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/SokchoBadaBatang.woff2') format('woff2');
+    font-family: 'seolleimcool-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/seolleimcool-SemiBold.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
+
 .font {
-    font-family: 'SokchoBadaBatang', sans-serif;
+    font-family: 'seolleimcool-SemiBold', sans-serif;
 }
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-#box {
-    text-align: center;
-    margin-top: 100px;
-    margin-left: 430px;
-    margin-right: 430px;
+/*nav바*/
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 0 1px .3rem hsla(0, 0%, 80%, .8);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
 }
-#head {
-    text-align: left;
-    font-size: 22px;
+
+.logo {
+    color: #006B56;
+    margin-left: 10px;
 }
+
+/**/
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    align-items: center;
+}
+
 .center {
-    font-size: 90px;
-    margin-bottom: 30px;
+    font-size: 50px;
+    margin: 30px 0px;
+    text-align: center;
 }
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #top {
 margin-top: 15px;
+display: flex;
+flex-direction: row;
 }
 
 #eunah1 {
@@ -62,7 +83,10 @@ text-align: left;
 margin-bottom: 9px;
 margin-top: 9px;
 }
-fieldset {
+.bi {
+    margin-right: 10px;
+}
+.fieldset {
     border: solid 3px #E1E1E1;
 }
 legend {
@@ -78,10 +102,39 @@ th, td{
 td {
     float: left;
 }
+
+.gal {
+    margin: 30px 0px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
 .video{
     margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 footer{
+    background-color: #006B56;
+    width: 100vw;
+    height: 130px;
     margin-top: 40px;
-    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-content {
+    display: block;
+}
+a:link {
+    color : black;
+}
+
+a:visited {
+    color : black;
 }
