@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+  align-items: center;
+}
+fieldset {
+  background-color: rgb(255, 234, 242);
+}
+span {
+  background-color: rgb(195, 215, 255);
+}
+
+legend {
+  font-size: 24px;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: hotpink;
+}
