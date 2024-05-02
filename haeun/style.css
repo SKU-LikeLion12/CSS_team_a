@@ -1,0 +1,39 @@
+h1{
+    color: rgb(110, 175, 175);
+    font-weight: bold ;
+}
+
+
+.hoo{
+    color: rgb(17, 12, 17);
+}
+
+.poo{
+    color: rgb(236, 163, 137)
+}
+
+.joo{
+    font-style: italic;
+}
+
+.box {
+    border: 3px solid rgb(21, 20, 20);
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    background-image: url(./gkdms.jpg);
+    background-position: bottom;
+    background-size: contain;
+}
+
+* { 
+
+        font-family: "Black Han Sans", sans-serif;
+        font-weight: 10;
+        font-style: normal;
+      
+}
+
+.bi{
+    font-size: x-large;
+}
