@@ -8,7 +8,6 @@ fieldset {
 span {
   background-color: rgb(195, 215, 255);
 }
-
 legend {
   font-size: 24px;
   font-weight: bold;
@@ -16,4 +15,8 @@ legend {
 a {
   text-decoration: none;
   color: hotpink;
+}
+#table {
+  display: inline-block;
+  text-align: center;
 }
