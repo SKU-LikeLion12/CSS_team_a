@@ -1,0 +1,27 @@
+@media (max-width:720px) {
+    /*nav*/
+    .nav{
+        align-items: center;
+    }
+    .nav p{
+        font-size: 12px;
+        white-space: pre-line;
+    }
+    .nav li{
+        font-size: 12px;
+    }
+
+    /*profile*/
+    .profile{
+        text-align: center;
+        flex-direction:column;
+        margin-top: 40px;
+    }
+    .profileContent{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .profileText{
+        margin-top: 20px;
+    }
+}
