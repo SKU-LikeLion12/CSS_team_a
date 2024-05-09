@@ -61,8 +61,10 @@ nav {
 }
 
 .logo {
-    color: #006B56;
+    color: #004d3d;
     margin-left: 10px;
+    font-size: 20px;
+    font-weight: 300px;
 }
 
 /**/
@@ -97,7 +99,7 @@ float: left;
 margin-right: 50px;
 }
 #title {
-color: #006B56;
+color: #004d3d;
 font-size: 25px;
 text-align: left;
 
@@ -130,7 +132,7 @@ fieldset {
     border: solid 3px #E1E1E1;
 }
 legend {
-    color: #006B56;
+    color: #004d3d;
     font-size: 25px;
 }
 th {
@@ -166,7 +168,7 @@ footer{
     align-items: center;
 }
 footer{
-    background-color: #006B56;
+    background-color: #004d3d;
     width: 100vw;
     height: 130px;
     margin-top: 40px;
